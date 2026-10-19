@@ -1,7 +1,6 @@
 /target
 **/*.rs.bk
 *.wasm
-.env
 .envrc
 *.log
 
@@ -16,6 +15,7 @@ test-ci-local.sh
 # Proptest snapshot files
 **/test_snapshots/
 **/test_snapshots/**/*.rs
+temp_auto_push.bat
 **/test_snapshots/**/*.json
 
 # Documentation files
@@ -35,3 +35,7 @@ BM/
 
 # Python cache
 __pycache__/
+.gitignore
+branch_structure.json
+config.bat
+node_modules
